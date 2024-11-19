@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+}
+div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    border:2px solid black;
+}
+
+#container1{
+    height:200px;
+    width:800px;
+    display:flex;
+    flex-direction:row; /* (default) main axis direction left to right */
+    flex-direction:row-reverse; /* main axis direction right to left */
+    flex-direction:column; /* main axis direction top to bottom */
+    flex-direction:column-reverse; /* main axis direction bottom to top */
+}
+
+#d1{
+    background-color:blue;
+}
+
+#d2{
+    background-color:rgb(255, 200, 0);
+}
+
+#d3{
+    background-color:rgb(255, 0, 60);
+}
+
+#d4{
+    background-color:rgb(0, 255, 76);
+}
+
+
+#container2{
+    height:200px;
+    width:800px;
+    display:flex;
+    justify-content:flex-start; /* all element on starting side of main axis */
+    justify-content:flex-end; /* all element on ending side of main axis */
+    justify-content:center; /* in center */
+    justify-content:space-around; /* space btween start and end is the half of middle */
+    justify-content:space-between; /* space between only elements */
+    justify-content: space-evenly; /* distributed in equal amount of space */
+}
+#d5{
+    background-color:aqua;
+}
+#d6{
+    background-color:rgb(0, 255, 98);
+}
+#d7{
+    background-color:rgb(255, 77, 0);
+}
+#d8{
+    background-color:rgb(76, 0, 255);
+}
+
+/* align content is used when element is present multiple lines*/
+
+#container3{
+    height:600px;
+    width:600px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center; /* gaping would be generated */
+    align-content:center; /* no gaping would be generated */
+    align-content:flex-start; /* shift towards top without gaping */
+    align-content:flex-end; /* shift towards bottom without gaping */
+    align-items:flex-start; /* shift towards top with gaping */
+    align-items:flex-end; /* shift towards bottom with gaping */
+}
+#d9{
+    background-color:red;
+    height:100px;
+    width:150px
+}
+#d10{
+    background-color:green;
+    height:200px;
+    width:150px
+}
+#d11{
+    background-color:yellow;
+    height:75px;
+    width:150px
+}
+#d12{
+    background-color:blue;
+    height:100px;
+    width:150px
+}
+#d13{
+    background-color:pink;
+    height:100px;
+    width:150px
+}

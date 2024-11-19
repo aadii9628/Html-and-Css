@@ -1,0 +1,54 @@
+/* static,relative,absolute,fixed,sticky */
+
+div{
+    height:100px;
+    width:100px;
+    border:solid 2px black;
+    display:inline-block;
+}
+#d1{
+    background-color:red;
+    position:static; /* top,bottom,left,right,z-index will not work for static position */
+}
+#d2{
+    background-color:blue;
+    position:relative; 
+    top:20px;
+    right:30px;
+}
+#d3{
+    background-color:green;
+    position:absolute; /* changes according to closest position ancestor */
+    top:2px;
+    left:20px;
+}
+#d4{
+    background-color:yellow; /* changes according to browser  and it is fixed */
+    position:fixed;
+    right:2px;
+}
+#d5{
+    background-color:pink;
+    position:sticky; /* based on user scroll position and its is fixed while scrolling */
+    top:0px;
+}
+
+/* z-index decides overlapping means which element overlap on which */
+#d6{
+    background-color:green;
+    position:relative;
+    z-index:1; /* element with greater z-index at the top of another element and with lesser z-index inside another element */
+}
+#d7{
+    background-color:sienna;
+    position:relative;
+    right:20px;
+    top:10px;
+    z-index:-1;
+}
+#d8{
+    background-color:blue;
+    position:relative;
+    left:-40px;
+    z-index:-3; 
+}

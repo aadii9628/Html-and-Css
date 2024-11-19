@@ -1,0 +1,20 @@
+#d1{
+    height:100vh; /* 1vp = 1% of browser height */
+    width:230vw; /* view width*/
+    background-color:green;
+    font-size:15px;
+}
+#d2{
+    height:50px;
+    width:30%;
+    background-color:yellow;
+    margin-left:10%;
+    font-size:2em; /* double of font-size of d1(parent) */
+    width:5em; /* 5 time of the font-size of of child*/
+}
+#d3{
+    height:100px;
+    width:5rem; /* it sets according to the size of body*/
+    background-color:pink;
+    margin-left:10%;
+}

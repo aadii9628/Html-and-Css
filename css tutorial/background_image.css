@@ -1,0 +1,11 @@
+#d1{
+    height:250px;
+    width:350px;
+    border:2px black solid;
+    background-image:url("/css\ tutorial/virat.jpeg");
+    background-size:cover;
+}
+body{
+    background-image:url("/css\ tutorial/stadium.jpg");
+    background-size:cover;
+}

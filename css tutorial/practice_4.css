@@ -1,0 +1,33 @@
+#d{
+    color:white;
+    height:60px;
+    background-color:black;
+}
+#logo{
+    color:orange;
+    font-size:25px;
+}
+a{
+    color:white;
+    margin-right:200px;
+}
+button{
+    border-radius:5px;
+    background-color:#f08804;
+}
+
+.box{
+    height:100px;
+    width:100px;
+    border:solid black 2px;
+    display:inline-block;
+    text-align:center;
+}
+main{
+    height:550px;
+}
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+}

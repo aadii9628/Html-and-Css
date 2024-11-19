@@ -1,0 +1,29 @@
+*{                    
+    color:grey;
+}
+h3{
+    color:orange;
+}
+p{
+    color:rgb(255, 100, 191);
+}
+button{
+    color:#ffff00;
+    background-color:blue;
+}
+body{
+    background-color:black;
+}
+#head{
+    color:aqua;
+}
+#ding{
+    color:chocolate;
+}
+.myclass{
+    color:violet;
+}
+
+div{
+    background-color:rgba(0,255,0,0.5) /* alpha channel range of 'a' between 0 and 1*/
+}

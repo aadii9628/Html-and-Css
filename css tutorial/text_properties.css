@@ -1,0 +1,44 @@
+#heading1{
+    text-align:right;
+    text-decoration:underline;
+    font-weight:normal;
+    font-size:15px;
+}
+#heading2{
+    text-align:left;
+    text-decoration:overline;
+    font-weight:lighter;
+}
+#heading3{
+    text-align:center;
+    text-decoration:line-through;
+    font-weight:bolder;
+}
+#heading4{
+    font-weight:bold;
+    font-weight:100;  /* font-weight range between 100 to 900*/
+}
+
+
+#para1{
+    text-align:right; /* right=start and left=end */
+    font-family:cursive;
+    text-transform:uppercase;
+    text-transform:none;
+}
+#para2{
+    text-align:center;
+    font-family:segoe ui;
+    text-transform:capitalize;
+}
+#para3{
+    text-align:left;
+    font-family:tahoma,roboto,arial;
+    line-height:35px;
+    line-height:normal;
+}
+
+a{
+    text-decoration:none;
+    font-size:25px;
+}
